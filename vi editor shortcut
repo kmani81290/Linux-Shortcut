@@ -1,0 +1,6 @@
+--To Delete whole content in a file
+gg - go to first line
+dG - then press
+j - go to one line down
+k - up
+
