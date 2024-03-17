@@ -1,3 +1,9 @@
 commands
 
 ncdu /var/data/
+
+
+##change local time
+timedatectl
+timedatectl list-timezones |grep -i kol
+timedatectl set-timezone Asia/Kolkata; timedatectl
