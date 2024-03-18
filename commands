@@ -8,3 +8,9 @@ ncdu /var/data/
 timedatectl
 timedatectl list-timezones |grep -i kol
 timedatectl set-timezone Asia/Kolkata; timedatectl
+
+##find cmd
+find newfolder/ -name aaa.txt
+find newfolder --> show all folders
+                 -name 1.t*
+                  -type -d --> only folder
