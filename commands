@@ -14,3 +14,17 @@ find newfolder/ -name aaa.txt
 find newfolder --> show all folders
                  -name 1.t*
                   -type -d --> only folder
+
+
+##awk cmd
+awk '{print}' data.txt
+awk '{print $1}' data.txt
+awk '{print $2}' data.txt
+awk '{print $5;$1}' data.txt
+awk '{print $5,$1}' data.txt
+awk '{print $1,$2}' data.txt
+awk -F $1 '{print}' data.txt
+awk '{print $NF}' data.txt
+awk '{print ($NF-1)}' data.txt
+awk ' NR==2 {print}' data.txt
+awk ' NR==2;NR==4 {print}' data.txt
